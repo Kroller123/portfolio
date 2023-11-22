@@ -1,0 +1,27 @@
+.Header {
+    display: flex;
+    align-items: center;
+    background-color: #302f2f;
+}
+
+.Header img {
+    margin-left: 25%;
+    height: 75px;
+}
+
+.Header div {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 50%;
+}
+
+.Header div a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.Header div a[class='active'] {
+    color: red;
+}

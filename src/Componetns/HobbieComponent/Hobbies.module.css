@@ -1,0 +1,57 @@
+.Hobbies {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 65%;
+    height: 100%;
+    margin-left: 15%;
+    margin-top: 75px;
+}
+
+.main_div {
+    transition: 0.5s;
+    border-radius: 20px;
+    border: 1px solid #b1b1b1;
+    width: 350px;
+}
+
+.main_div:hover{
+    background-color: #c4c2c2;
+}
+
+.images {
+    border-radius: 20px;
+    width: 350px;
+    height: 500px;
+}
+
+.text{
+    background-color: black;
+    margin-left: 5%;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 90%;
+    color: white;
+}
+
+.p{
+    font-size: 20px;
+
+}
+
+.btn{
+    margin-bottom: 10px;
+    width: 125px;
+    height: 30px;
+    background-color: yellow;
+    color: blue;
+    transition: 1.5s;
+}
+
+.btn:hover{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: yellow;
+}

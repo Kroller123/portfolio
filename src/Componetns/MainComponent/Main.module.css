@@ -1,0 +1,44 @@
+.Main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image_foto {
+    width: 500px;
+    height: 600px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 10px 10px #054ef5;
+    border: 5px solid #ffffff;
+    transition: 2s;
+}
+
+.text {
+    font-size: 30px;
+}
+
+.second_text {
+    font-size: 20px;
+}
+
+
+
+.btn {
+    width: 150px;
+    height: 25px;
+    margin-bottom: 25px;
+    background:#4a4aec;
+    border: 1px black solid;
+    transition: 1.5s;
+}
+
+.btn:hover {
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
