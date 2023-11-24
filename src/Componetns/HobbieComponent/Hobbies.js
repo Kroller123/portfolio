@@ -1,7 +1,7 @@
 import React from 'react';
 import css from "./Hobbies.module.css"
 import {Card} from "../CardComponent/Card";
-import firsFoto from "./ImageHobbies/mainfoto.jpg"
+import firsFoto from "./ImageHobbies/h_react.webp"
 import secondFoto from "./ImageHobbies/myfoto2.jpg"
 import thirdFoto from "./ImageHobbies/баскетболфото.jpg"
 
@@ -10,10 +10,10 @@ const Hobbies = () => {
         {
             cardOne:{
                 img:firsFoto,
-                name:"It's me",
-                textBtn:"My Biography",
-                info:"Now I will tell you a little about myself. My biography on the button below",
-                url:"biography"
+                name:"Skills",
+                textBtn:"My skills",
+                info:"Here I will tell you a little about my web development skills.",
+                url:"skills"
             },
             cardTwo:{
                 img:secondFoto,

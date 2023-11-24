@@ -1,10 +1,10 @@
 import {createBrowserRouter, Navigate} from "react-router-dom";
 import {MainPage} from "./Pages/mainPage";
 import {HobbiesPage} from "./Pages/hobbiesPage";
-import {BiographyPage} from "./Pages/biographyPage";
 import {MyMotoPage} from "./Pages/myMotoPage";
 import {BasketballPage} from "./Pages/basketballPage";
 import {MainLayout} from "./layout/MainLayout";
+import {SkillsPage} from "./Pages/SkilsPage";
 
 let routers = createBrowserRouter([
     {path:'' ,element:<MainLayout/>, children:[
@@ -13,7 +13,7 @@ let routers = createBrowserRouter([
             {path:'/hobbies', element:<HobbiesPage/>},
             {path:'/basketball', element:<BasketballPage/>},
             {path:'/mymoto', element:<MyMotoPage/>},
-            {path:'/biography', element:<BiographyPage/>}
+            {path:'/skills', element:<SkillsPage/>}
         ]},
 
 ])
